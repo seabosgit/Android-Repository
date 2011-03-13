@@ -36,7 +36,7 @@ public class WordListDisplay extends ListActivity {
 		     
 		      String action = getIntent().getAction();	
 		     	
-		      if (Intent.ACTION_PICK.equals(action) || Intent.ACTION_GET_CONTENT.equals(action)) {
+		      /*if (Intent.ACTION_PICK.equals(action) || Intent.ACTION_GET_CONTENT.equals(action)) {
 		            // The caller is waiting for us to return a note selected by
 		            // the user.  The have clicked on one, so return it now.
 		           // setResult(RESULT_OK, new Intent().setData(noteUri));
@@ -44,7 +44,7 @@ public class WordListDisplay extends ListActivity {
 		        } else {
 		            // Launch activity to view/edit the currently selected item
 		            startActivity(new Intent(Intent.ACTION_EDIT, noteUri));
-		        }
+		        }*/
 		    	
 		    	
 		      Toast.makeText(getApplicationContext(), ((TextView) view).getText(),
