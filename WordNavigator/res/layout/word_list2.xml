@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+	<TextView android:id="@+id/TxtCountry" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="This is Activity 2" />
+
+	<RelativeLayout android:id="@+id/InnerRelativeLayout"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+
+		<Button android:text="Previous" android:id="@+id/BtnPrevious"
+			android:layout_width="fill_parent" android:textSize="10px"
+			android:layout_height="35px" android:textStyle="bold"
+			android:gravity="center" />
+	
+	</RelativeLayout>
+
+</RelativeLayout>
+	 
