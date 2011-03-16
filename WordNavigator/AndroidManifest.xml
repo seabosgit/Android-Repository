@@ -4,6 +4,10 @@
       android:versionCode="1"
       android:versionName="1.0">
     <application android:icon="@drawable/icon" android:label="@string/app_name">
+		<provider android:name="com.seabos.content.CountryContentProvider"
+          android:authorities="com.seabos.content.countryprovider" >
+		</provider>    
+		
         <activity android:name=".WordListDisplay"
                   android:label="@string/app_name">
             <intent-filter>
